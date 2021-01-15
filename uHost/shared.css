@@ -55,6 +55,7 @@ body {
     text-align: right;
     width: calc(100% - 74px);
     vertical-align: middle;
+    z-index: 1;
 }
 
 .main-nav__items {
