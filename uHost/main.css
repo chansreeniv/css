@@ -29,6 +29,7 @@
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
+    /* margin: 10; */
   }
   
   #product-overview h1 {
