@@ -1,7 +1,6 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("./images/freedom.jpg")  center/cover no-repeat border-box,
-    #ff1b68;
+    url("./images/freedom.jpg") center/cover no-repeat border-box, #ff1b68;
   /* background-size: cover;
     background-position: left 10% bottom 60%;
     background-repeat: no-repeat;
@@ -25,23 +24,22 @@
   font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) and (min-height: 40rem){
+@media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
     height: 40vh;
     background-position: 50% 25%;
-     margin: 10;
+    margin: 10;
   }
-  
+
   #product-overview h1 {
     font-size: 2rem;
-  } 
+  }
 }
 
 .section-title {
   color: #2ddf5c;
   text-align: center;
 }
-
 
 .plan {
   background: #d5ffdc;
@@ -95,9 +93,9 @@
 
 @media (min-width: 40rem) {
   .plan__list {
-  width: 100%;
-  text-align: center;
-} 
+    width: 100%;
+    text-align: center;
+  }
   .plan {
     display: inline-block;
     width: 30%;
@@ -108,7 +106,7 @@
   .plan--highlighted {
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
-  
+
   .key-feature {
     display: inline-block;
     width: 30%;
@@ -133,7 +131,6 @@
   padding: 0;
   text-align: center;
 }
-
 
 .key-feature {
   /* display: inline-block; */
