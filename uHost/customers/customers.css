@@ -6,15 +6,6 @@ main {
   font-size: 1.2em;
 }
 
-/* .testimonial__list {
-    width: 80%;
-    margin: auto;
-  } */
-
-/* .testimonial:first-of-type {
-    margin-top: 6rem;
-  } */
-
 .testimonial__image-container {
   width: 100%;
   max-width: 40rem;
@@ -69,19 +60,18 @@ main {
   .testimonial {
     margin: 3rem auto;
     max-width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   .testimonial__image-container {
     width: 65%;
     max-width: 580px;
-    display: inline-block;
-    vertical-align: middle;
     width: 66%;
   }
 
   .testimonial__info {
-    display: inline-block;
-    vertical-align: middle;
     width: 30%;
   }
 }
