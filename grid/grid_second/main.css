@@ -1,10 +1,15 @@
 .container {
     margin: 20px;
     display: grid;
-    grid-template-columns: 15rem 15rem;
+    /* grid-template-columns: 15rem 15rem;  */
+    grid-template-columns: repeat(3, 10rem); /* dynamic grid that can be generated using auto-fill and auto-fit also */
+    grid-template-rows: 20rem; /* first row should have 20rem */
     justify-content: center;
     grid-gap: 1.5rem;
-}
+    grid-auto-rows: minmax(8rem, auto); /* setting row height manually */
+    grid-auto-flow: row dense; /* sets all the elements to if needed columns, dense override default behaviour of not taking the free space */
+    grid-auto-columns: 5rem;
+  }
 
 .quote {
   border: 1px solid #fa923f;
@@ -12,6 +17,11 @@
   font-family: sans-serif;
   padding: 1rem;
   border-radius: 5px;
+}
+
+.quote:nth-of-type(2) { /* selecting second div from quote class */
+  grid-column: span 2;
+
 }
 
 .quote--featured {
